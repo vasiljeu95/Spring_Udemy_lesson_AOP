@@ -1,6 +1,6 @@
 package com.github.vasiljeu95.aop.aspects;
 
-import com.github.vasiljeu95.aop.Book;
+import com.github.vasiljeu95.aop.entities.Book;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;

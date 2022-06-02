@@ -1,5 +1,9 @@
-package com.github.vasiljeu95.aop;
+package com.github.vasiljeu95.aop.tests;
 
+import com.github.vasiljeu95.aop.MyConfig;
+import com.github.vasiljeu95.aop.entities.Book;
+import com.github.vasiljeu95.aop.libraries.SchoolLibrary;
+import com.github.vasiljeu95.aop.libraries.UniversityLibrary;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -8,7 +12,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @author Stepan Vasilyeu
  * @since 31.05.2022
  */
-public class Test1 {
+public class TestingPointcuts {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext applicationContext =
                 new AnnotationConfigApplicationContext(MyConfig.class);

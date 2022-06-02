@@ -1,4 +1,4 @@
-package com.github.vasiljeu95.aop;
+package com.github.vasiljeu95.aop.entities;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

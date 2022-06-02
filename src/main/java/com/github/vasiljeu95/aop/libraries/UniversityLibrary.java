@@ -1,5 +1,6 @@
-package com.github.vasiljeu95.aop;
+package com.github.vasiljeu95.aop.libraries;
 
+import com.github.vasiljeu95.aop.entities.Book;
 import org.springframework.stereotype.Component;
 
 /**

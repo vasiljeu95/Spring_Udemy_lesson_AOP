@@ -9,7 +9,7 @@ import org.aspectj.lang.annotation.Pointcut;
  * @since 02.06.2022
  */
 public class MyPointcuts {
-    @Pointcut("execution(* add*(..))")
+    @Pointcut("execution(* abc*(..))")
     public void allAddMethods() {}
 
 //    @Pointcut("execution(* get*())")

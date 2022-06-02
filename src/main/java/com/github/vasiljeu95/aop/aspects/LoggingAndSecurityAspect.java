@@ -13,10 +13,10 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class LoggingAndSecurityAspect {
 
-//    @Pointcut("execution(* com.github.vasiljeu95.aop.UniversityLibrary.* (..))")
+//    @Pointcut("execution(* com.github.vasiljeu95.aop.libraries.UniversityLibrary.* (..))")
 //    private void allMethodsFromUniversityLibrary() {}
 //
-//    @Pointcut("execution(public void com.github.vasiljeu95.aop.UniversityLibrary.returnMagazine())")
+//    @Pointcut("execution(public void com.github.vasiljeu95.aop.libraries.UniversityLibrary.returnMagazine())")
 //    private void returnMagazineFromUniversityLibrary(){}
 //
 //    @Pointcut("allMethodsFromUniversityLibrary() && !(returnMagazineFromUniversityLibrary())")
@@ -27,11 +27,11 @@ public class LoggingAndSecurityAspect {
 //        System.out.println("beforeAllMethodsExceptReturnMagazineAdvice: Log #10");
 //    }
 
-//    @Pointcut("execution(* com.github.vasiljeu95.aop.UniversityLibrary.get* ())")
+//    @Pointcut("execution(* com.github.vasiljeu95.aop.libraries.UniversityLibrary.get* ())")
 //    private void allGetMethodsFromUniversityLibrary() {
 //    }
 //
-//    @Pointcut("execution(* com.github.vasiljeu95.aop.UniversityLibrary.return* ())")
+//    @Pointcut("execution(* com.github.vasiljeu95.aop.libraries.UniversityLibrary.return* ())")
 //    private void allReturnMethodsFromUniversityLibrary() {
 //    }
 //

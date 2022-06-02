@@ -1,4 +1,4 @@
-package com.github.vasiljeu95.aop;
+package com.github.vasiljeu95.aop.libraries;
 
 /**
  * AbstractLibrary
