@@ -26,6 +26,8 @@ public class University {
     }
 
     public List<Student> getStudents(){
+        System.out.println("Getting started with the method getStudents");
+        System.out.println(students.get(4));
         System.out.println("Information from method getStudents: ");
         System.out.println(students);
         return students;
